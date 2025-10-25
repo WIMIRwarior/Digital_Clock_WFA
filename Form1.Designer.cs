@@ -100,6 +100,8 @@
             Controls.Add(lbl_day);
             Controls.Add(lbl_seconds);
             Controls.Add(lbl_Time);
+            MaximumSize = new Size(816, 489);
+            MinimumSize = new Size(816, 489);
             Name = "Form1";
             Text = "Digital Clock";
             ResumeLayout(false);
